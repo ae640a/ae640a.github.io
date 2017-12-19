@@ -1,35 +1,19 @@
 ---
-sectionHeader: Introduction and Basics
+sectionHeader: Introduction to Basics
 week: 1
-dates: 01/06/2017
-lecturer: mmdarden
-slidesName: w17/week1
-homeworkRelease: 2017-01-06 15:00:00
-solutionRelease: 2017-01-14 22:00:00
-title: "Introduction, Virtual Machines, & Command Line Primer"
+dates: 08/01/2018 10/01/2018
+lecturer: Mangal Kothari
+slidesName: # w17/week1
+homeworkRelease:
+solutionRelease:
+title: "Probability and Robot Dynamics"
 lectureTopics:
-  - Lines of text as a universal interface
-  - Examples of unix commands and command synthesis
+  - Random Variables and Baye's Theorem
+  - Transformation between frames
+  - Euler and Quaternion Representation
 homeworkTopics:
-  - Set up a virtual machine
-  - Some light reading
-advancedTopics:
-  - None this week
-commands:
-  - cat
-  - cd
-  - cp
-  - fg
-  - help
-  - jobs
-  - kill
-  - ls
-  - mkdir
-  - mv
-  - pwd
-  - rm
-  - sleep
-lectureSummary: Syllabus week! Don't expect anything too deep here. Just an easy introduction to the C4CS curriculum.
-leccapWed: DsbkXq
-leccapFri: L3hTLF
+  - Setup Ubuntu 16.04 and ROS Kinetic on laptop
+lectureSummary:
+references:
+  - Ubuntu setup instructions <a href="https://github.com/Mayankm96/setup-ubuntu">here</a>
 ---

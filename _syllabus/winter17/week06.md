@@ -1,24 +1,16 @@
 ---
 week: 6
-dates: 02/10/2017
-lecturer: mmdarden
-homeworkRelease: 2017-02-10 15:00:00
-advancedRelease: 2017-02-10 15:00:00
-solutionRelease: 2017-02-19 15:00:00
-title: "Unix II"
-slidesName: w17/week6
+dates: 12/02/2018 14/02/2018
+lecturer: Mangal Kothari
+slidesName: # w17/week6
+homeworkRelease:
+advancedRelease:
+solutionRelease:
+title: "Kalman Filter Family"
 lectureTopics:
-  - Lines of text as a universal interface
-  - Examples of unix commands and command synthesis
+  - Extended Kalman Filter Algorithm
+  - Unscented Kalman Filter Algorithm
 homeworkTopics:
-  - Basics of regular expressions
-  - Guided intro to some tools
-  - Synthesizing tools into powerful queries
-advancedTopics:
-  - Shell scripting
-  - (Basic) shell job control
-  - Automated testing
 lectureSummary:
-leccapWed: qlB5Sh
-leccapFri: Unxdri
+references:
 ---

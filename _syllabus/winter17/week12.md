@@ -1,22 +1,15 @@
 ---
-sectionHeader: 'Standing on the Shoulders of Giants'
+sectionHeader: 'Project Presentation'
 week: 12
-dates: 03/24/2017
-lecturer: mmdarden
-homeworkRelease: 2017-03-24 15:00:00
-advancedRelease: 2017-03-24 15:00:00
-title: "Package Managers & Development Environments"
-slidesName: w17/week12
+dates: 14/04/2018 16/04/2018
+lecturer: Mangal Kothari
+slidesName: # w17/week8
+homeworkRelease:
+advancedRelease:
+solutionRelease:
+title: "Presentation of Course Projects"
 lectureTopics:
-  - Installing packages
-  - Inspecting package contents
-  - Uploading packages
-  - The magic of Free Open Source Software
-# homeworkTopics:
-#   - TBD
-# advancedTopics:
-#   - TBD
+homeworkTopics:
 lectureSummary:
-leccapWed: SEoJtr
-leccapFri: CJspa4
+references:
 ---

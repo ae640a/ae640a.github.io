@@ -1,15 +1,17 @@
 ---
+sectionHeader: 'Path Planning'
 week: 8
-dates: 02/24/2017
-lecturer: cgagnon
-title: "OH++ (Optional)"
+dates: 12/03/2018 14/03/2018
+lecturer: Mangal Kothari
+slidesName: # w17/week8
+homeworkRelease:
+advancedRelease:
+solutionRelease:
+title: "How to plan a path in a known environment?"
 lectureTopics:
-  - Bring your questions, anything you've ever wanted to know and we'll figure it out.
-# homeworkTopics:
-#   - TBD
-# advancedTopics:
-#   - TBD
+  - Deterministic Algorithms (RRT, RRT*)
+  - Markov Decision Processes
+homeworkTopics:
 lectureSummary:
-leccapWed:
-leccapFri: eGkrN7
+references:
 ---
