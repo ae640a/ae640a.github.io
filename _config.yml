@@ -20,6 +20,10 @@ google_analytics_id:
 timezone: India/Kanpur
 permalink: none
 
+# Optional features
+enable_anchorjs:    false
+enable_katex:       true
+
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
@@ -70,6 +74,7 @@ markdown: kramdown
 # not treat .markdown files as markdown.
 markdown_ext: "mkdown,mkdn,mkd,md"
 
+query: "@*"
 
 # -----------------------------------------------------------------------------
 # Other settings
@@ -77,3 +82,7 @@ markdown_ext: "mkdown,mkdn,mkd,md"
 
 # Needed for Travis
 exclude: [vendor]
+
+jquery_version: "1.12.4"
+katex_version: "0.7.1"
+anchorjs_version: "3.2.2"
