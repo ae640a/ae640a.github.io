@@ -63,7 +63,7 @@ completed.</p>
 {% include anchor.html %}
 <p>
 For general issues, e-mail the course staff at <a href="mailto:{{site.email}}">{{site.email}}</a>.
-For sensitive issues, please e-mail {{site.instructor}} directly.
+For sensitive issues, please e-mail <a href="mailto:mangal@iitk.ac.in">{{site.instructor}}</a> directly.
 </p>
 <div class="table-responsive">
   <table class="table staff-table">
@@ -76,7 +76,7 @@ For sensitive issues, please e-mail {{site.instructor}} directly.
       <td>Mayank Mittal</td>
     </tr>
     <tr>
-      <td><a href="mailto:mmdarden@umich.edu">mangal@iitk.ac.in</a></td>
+      <td><a href="mailto:mangal@iitk.ac.in">mangal@iitk.ac.in</a></td>
       <td><a href="mailto:mayankm@iitk.ac.in">mayankm@iitk.ac.in</a></td>
     </tr>
   </table>
@@ -115,7 +115,7 @@ For sensitive issues, please e-mail {{site.instructor}} directly.
       <th style="min-width: 400px;">Lecture Materials</th>
     </tr>
     {% for week in site.syllabus %}
-      {% if week.categories contains 'f17' %}
+      {% if week.categories contains 'winter17' %}
         {{ week.output }}
       {% endif %}
     {% endfor %}
