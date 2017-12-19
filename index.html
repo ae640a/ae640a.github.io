@@ -3,13 +3,7 @@ layout: default
 ---
 
 <div class="jumbotron">
-  <p>This 1-credit seminar is designed to teach the essentials of using a
-  computer effectively for EECS students. While the target audience is CS/CE/DS
-  students, any student wishing to learn how to use their computer much more
-  effectively is encouraged to join. Topics covered include shells, environment,
-  scripting, Makefiles, compilers, debugging tools, and version control. The
-  end of the course will be open to student input for interesting topics to
-  cover.</p>
+  <p>{{site.description}}</p>
 </div>
 
 <div class="alert alert-info">
@@ -18,7 +12,7 @@ layout: default
   {% comment %} Do math on unix timstamps to process in liquid {% endcomment %}
   {% assign onemonthago = 'now' | date: '%s' | minus: 2592000 %}
   {% for update in site.updates %}
-    {% if update.categories contains 'f17' %}
+    {% if update.categories contains 'w17' %}
       {% comment %} No int filter, use benign math to coerce from string {% endcomment %}
       {% assign update_date = update.date | date: '%s' | times: 1 %}
       {% if update_date > onemonthago %}
@@ -32,7 +26,7 @@ layout: default
   <div id="old-updates" style="display: none">
 
     {% for update in site.updates %}
-      {% if update.categories contains 'f17' %}
+      {% if update.categories contains 'w17' %}
         {% comment %} No int filter, use benign math to coerce from string {% endcomment %}
         {% assign update_date = update.date | date: '%s' | times: 1 %}
         {% if update_date <= onemonthago %}
@@ -68,29 +62,22 @@ completed.</p>
 {% assign anchor_html_entity="h3" %}
 {% include anchor.html %}
 <p>
-For general issues, e-mail the course staff at <a href="mailto:c4cs-staff@umich.edu">c4cs-staff@umich.edu</a>.
-For sensitive issues, please e-mail Marcus directly.
+For general issues, e-mail the course staff at <a href="mailto:{{site.email}}">{{site.email}}</a>.
+For sensitive issues, please e-mail {{site.instructor}} directly.
 </p>
 <div class="table-responsive">
   <table class="table staff-table">
     <tr>
-      <td><img alt="@marcus-darden" class="avatar" src="https://avatars1.githubusercontent.com/u/1323862?v=3&amp;s=120"></td>
-      <td><img src="/static/img/cgagnon-square.jpg"  alt="Cameron Gagnon"/></td>
-      <td><img src="/static/img/samkhan-square.jpg"  alt="Samiur Khan"   /></td>
-      <td><img src="/static/img/cyanliu-square.jpg" alt="Christina Liu"/></td>
-
+      <td><a href="https://www.iitk.ac.in/aero/mangal/"><img src="/assets/winter17/staff/mangal-kothari.jpg" alt="Mangal Kothari"></a></td>
+      <td><a href="https://mayankm96.github.io"><img src="/assets/winter17/staff/mayank-mittal.jpg"  alt="Mayank Mittal"/></a></td>
     </tr>
     <tr>
-      <td>Marcus Darden</td>
-      <td>Cameron Gagnon</td>
-      <td>Samiur Khan</td>
-      <td>Christina Liu</td>
+      <td>Mangal Kothari</td>
+      <td>Mayank Mittal</td>
     </tr>
     <tr>
-      <td><a href="mailto:mmdarden@umich.edu">mmdarden@umich.edu</a></td>
-      <td><a href="mailto:cgagnon@umich.edu">cgagnon@umich.edu</a></td>
-      <td><a href="mailto:samkhan@umich.edu">samkhan@umich.edu</a></td>
-      <td><a href="mailto:cyanliu@umich.edu">cyanliu@umich.edu</a></td>
+      <td><a href="mailto:mmdarden@umich.edu">mangal@iitk.ac.in</a></td>
+      <td><a href="mailto:mayankm@iitk.ac.in">mayankm@iitk.ac.in</a></td>
     </tr>
   </table>
 </div>
@@ -98,16 +85,10 @@ For sensitive issues, please e-mail Marcus directly.
 {% assign anchor_text="Course Resources" %}
 {% assign anchor_name="resources" %}
 {% include anchor.html %}
-<h4>Course Q&amp;A / Forum &ndash; <a href="https://piazza.com/umich/fall2017/eecs398002fa2017" target="_blank">Piazza</a></h4>
+<h4>Course Q&amp;A / Forum &ndash; <a href="https://piazza.com/" target="_blank">Piazza</a></h4>
 <h4>Assignment Submission &amp; Grades &ndash; <a
         href="https://gradescope.com/courses/9999" target="_blank">Gradescope</a></h4>
 <ul><li>Gradescope entry code: <code>9D554P</code></li></ul>
-<!--
-<p>For most questions, please use <a href="https://piazza.com/class/ij1jghks3dr59n" target="_blank">piazza</a>
-so that all students may benefit from the question and answer. To reach the course staff, please e-mail
-<a href="mailto:c4cs-staff@umich.edu">c4cs-staff@umich.edu</a>.
--->
-<p>To borrow a CSE laptop for the semester, contact Don Winsor at <a href="mailto:don@umich.edu">don@umich.edu</a>.</p>
 
 {% assign anchor_text="Course Meeting Time and Location" %}
 {% assign anchor_name="times" %}
@@ -116,10 +97,6 @@ so that all students may benefit from the question and answer. To reach the cour
   <dt>Section 002 (28326)</dt>
   <dd>1013 DOW, Friday 11:00AM &mdash; 12:30PM</dd>
 </dl>
-
-<div id='calendar-loading'>Loading calendar...</div>
-<div id='calendar'></div>
-<a href="https://calendar.google.com/calendar/embed?src=4a0vvtkg11f6g0qs2er37gkkf8%40group.calendar.google.com&ctz=America/New_York" class="pull-right" target="_blank">Google Calendar link</a>
 
 {% assign anchor_text="Schedule" %}
 {% assign anchor_name="schedule" %}
