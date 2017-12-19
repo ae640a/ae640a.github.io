@@ -1,23 +1,42 @@
-<header class="site-header">
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button class="navbar-toggle collapsed" aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" type="button">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand hidden-xs hidden-sm" href="/">{{site.title}}</a>
-        <a class="navbar-brand hidden-md hidden-lg" href="/">{{site.code}}</a>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
-        <ul class="nav navbar-nav navbar-right">
-          {% for category in site.command_categories %}
-            <li><a href="/reference#{{category}}">{{ category | capitalize }}</a></li>
-          {% endfor %}
+<header>
+  <div class="container">
+    <nav class="navbar navbar-expand-md navbar-fixed-top">
+      <a class="navbar-brand" href="https://www.iitk.ac.in">
+        <img src="/static/img/IITK_Logo.png" height="30" alt="image">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav1">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="{{site.url}}">{{site.title}} <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav justify-content-end d-none d-lg-flex ml-md-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="{{site.url}}">Home</a>
+          <li class="nav-item">
+          </li>
+            <a class="nav-link" href="/#prereqs">Pre-Requisites</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/#syllabus">Syllabus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/#grading">Grading</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/#staffs">Course Staff</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/reference">Reference</a>
+          </li>
         </ul>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
 </header>
