@@ -7,7 +7,7 @@ slidesName: # w17/week3
 homeworkRelease:
 advancedRelease:
 solutionRelease:
-"Robotic System Modelling"
+title: "Robotic System Modelling"
 lectureTopics:
   - Robot Environment Interaction
   - Motion Model for Differential-Drive Steering

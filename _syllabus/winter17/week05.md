@@ -10,7 +10,6 @@ title: "Inertial Navigation"
 lectureTopics:
 - Attitude and Heading Reference System (AHRS)
 - Orientation Kinematics using DCM Algorithm
-
 homeworkTopics:
 lectureSummary:
 references:
