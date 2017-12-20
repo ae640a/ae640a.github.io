@@ -1,7 +1,7 @@
 {% comment %} Using the octolink svg from github (SIL OFL 1.1) {% endcomment %}
 {% comment %} Use assigns to work around the absence of macro support in liquid :( {% endcomment %}
 <{{ anchor_html_entity }}>
-  <a href="#{{ anchor_name }}" name="{{ anchor_name }}">
+  <a id="{{ anchor_name }}">
   </a>
   {{ anchor_text }}
 </{{ anchor_html_entity }}>
