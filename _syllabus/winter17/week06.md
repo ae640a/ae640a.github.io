@@ -1,4 +1,5 @@
 ---
+sectionHeader: 'Mobile Robot Localization'
 week: 6
 dates: 12/02/2018 14/02/2018
 lecturer: Mangal Kothari
@@ -6,10 +7,12 @@ slidesName: # w17/week6
 homeworkRelease:
 advancedRelease:
 solutionRelease:
-title: "Kalman Filter Family"
+title: "Localization Problem"
 lectureTopics:
-  - Extended Kalman Filter Algorithm
-  - Unscented Kalman Filter Algorithm
+  - Recursive State Estimation
+  - Taxonomy of Localization Problems
+  - Markov Localization
+  - Inroduction to Gaussian Filters
 homeworkTopics:
 lectureSummary:
 references:

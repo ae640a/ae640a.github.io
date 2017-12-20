@@ -1,5 +1,4 @@
 ---
-sectionHeader: 'Perception'
 week: 4
 dates: 29/01/2018 31/01/2018
 lecturer: Mangal Kothari
@@ -7,12 +6,11 @@ slidesName: # w17/week4
 homeworkRelease:
 advancedRelease:
 solutionRelease:
-title: "Scan-Matching and Stereo Vision"
+title: "Modelling and Control of Quadrotor"
 lectureTopics:
-  - Iterative Close Point Algorithm
-  - RANSAC and PCA
-  - Intrinsic Camera Calibration
-  - Epipolar Geometry
+  - Kinematics of Quadrotor
+  - Dynamic models
+  - Linear Controllers for quadrotors
 homeworkTopics:
 lectureSummary:
 references:
