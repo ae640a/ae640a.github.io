@@ -11,7 +11,6 @@ solutionRelease:
 lectureTopics:
   - Robot Environment Interaction
   - Motion Model for Differential-Drive Steering
-
 homeworkTopics:
 lectureSummary:
 references:
