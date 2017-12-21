@@ -44,9 +44,10 @@ layout: default
   {% include anchor.html %}
   <p></p>
   <dl class="dl-horizontal">
-    <dd> <b>Instructor:</b> {{site.instructor}}</dd>
-    <dd><b>Lecture Venue:</b> L-9, LHC, IIT Kanpur</dd>
-    <dd><b>Timings:</b> Monday, Wednesday (5:10PM &mdash; 6:30PM) </dd>
+    <dd> <b>Instructor:</b> <a href="https://www.iitk.ac.in/aero/mangal/"> {{site.instructor}} </a></dd>
+    <dd><b>Lecture Venue:</b> T.B.D.</dd>
+    <dd><b>Class Venue:</b> T.B.D.</dd>
+    <dd><b>Class Timings:</b> Monday, Wednesday (5:10PM &mdash; 6:30PM) </dd>
   </dl>
   <p>{{site.description}}</p>
 </section>
@@ -56,16 +57,16 @@ layout: default
   {% assign anchor_name="prereqs" %}
   {% assign anchor_html_entity="h2" %}
   {% include anchor.html %}
-  <p>There are no formal pre-requisties for the course. However, knowledge of dynamics,
-    probability and statistics are necessary. Familiarity with object-oriented programming,
-    MATLAB and ROS would be beneficial.</p>
-  <p>The course is being offered to advance undergraduate and graduate students only.</p>
+  <p>There are no formal pre-requisties for the course. However, prior knowledge of dynamics,
+    probability and statistics is necessary. The students also need to be proficient in object-oriented
+    programming (Python/C++), and MATLAB. Familiarity of robotic hardware and ROS would be beneficial.</p>
+  <p><b> NOTE: </b> The course is being offered to advanced undergraduate and graduate students only.</p>
 
 </section>
 
 <section class="fdb-block team-2">
-  {% assign anchor_text="Lecture Organization" %}
-  {% assign anchor_name="syllabus" %}
+  {% assign anchor_text="Schedule" %}
+  {% assign anchor_name="schedule" %}
   {% assign anchor_html_entity="h2" %}
   {% include anchor.html %}
 
@@ -101,18 +102,19 @@ layout: default
 
 
 <section class="fdb-block team-2">
-  {% assign anchor_text="Attendance, Grading, and Homework" %}
+  {% assign anchor_text="Grading" %}
   {% assign anchor_name="grading" %}
   {% assign anchor_html_entity="h2" %}
   {% include anchor.html %}
   <p>
   This course is graded on a straight scale, it will not be curved. There are a
-  total of 100 possible points in this course.  You are expected to earn 40 points
-  from Homework Assignments, 40 points from Project, 5 points from Attendance and 15 points from
-  End-Semester Examination. However each section has modest opportunity for extra credit
+  total of 100 possible points in this course.  The tentative break-up of the points is
+  as follows: Homework Assignments (40 points), Project (35 points), Quizzes (5 points)
+  and End-Semester Examination (20 points). Each section has modest opportunity for extra credit
   that can cover missing points elsewhere.
   </p>
-  <p><small><em>Range notation [90,93) means 90 is included and 93 is not</em></small></p>
+
+  <!-- <p><small><em>Range notation [90,93) means 90 is included and 93 is not</em></small></p>
 
   {% assign anchor_text="Final Grades" %}
   {% assign anchor_name="syllabus-grades" %}
@@ -123,15 +125,15 @@ layout: default
   	<tr>
   		<th></th>
   		<th>A*<br /><small>[91,100]</small></th>
-  		<th>A<br /><small>[77.91)</small></th>
-  		<th>B<br /><small>[55,77)</small></th>
+  		<th>A<br /><small>[80,91)</small></th>
+  		<th>B<br /><small>[55,80)</small></th>
   		<th>C<br /><small>[47,55)</small></th>
   		<th>D<br /><small>[33,47)</small></th>
-  		<th>E<br /><small>[15,33)</small></th>
-  		<th>F<br /><small>[0,15)</small></th>
+  		<th>E<br /><small>[20,33)</small></th>
+  		<th>F<br /><small>[0,20)</small></th>
   	</tr>
   </table>
-  </div>
+  </div> -->
 
   <br>
 
@@ -140,30 +142,54 @@ layout: default
   {% assign anchor_html_entity="h3" %}
   {% include anchor.html %}
 
-  <p>There are 5 homework assignments in the course. Each homework assignment is
-  worth 8 points. There might be bonus questions in each assignment carrying extra points.
+  <p>There would be 5 homework assignments in the course. Each homework assignment is
+  worth 8 points, and would comprise of implementation and theory based questions.
+  There might be bonus questions in each assignment carrying extra points.
   Any points over 40 points are worth half their value.</p>
 
-  <p>Late assignments will not be accepted.</p>
+
+  <ul><b>NOTE: </b>
+    <li> All assignments have to submitted in <i>Latex</i> following this <a href="https://www.overleaf.com/latex/templates/ece-100-template/pjrrfybfggqt#.WjvMFnWCzCI">template</a>. </li>
+    <li> Late assignments will not be accepted.</li>
+  </ul>
 
   <br>
 
-  {% assign anchor_text="Attendance and Participation (5% / 5 points)" %}
+  {% assign anchor_text="Project (35% / 35 points)" %}
+  {% assign anchor_name="syllabus-project" %}
+  {% assign anchor_html_entity="h3" %}
+  {% include anchor.html %}
+
+  <p>The course heavily emphasizes on the project aspect. You would be required to work in a team
+    of 2-3 members. The project has to be an implementation of a recent work in robotics appearing in conferances like
+    RSS, ICRA, or IROS (from 2013 onwards). The source code for the same should not be publicly available. Points would
+    be given on the basis of code readibilty, documentation, and presentation.
+  </p>
+
+  <br>
+
+  {% assign anchor_text="Quizzes and Participation (5% / 5 points)" %}
   {% assign anchor_name="syllabus-attendance" %}
   {% assign anchor_html_entity="h3" %}
   {% include anchor.html %}
 
-  <p>Attendance is not compulsory for this course.
-  <strong>Bring your laptop to every lecture.</strong>
-  Lectures might include some quick quizzes used both to verify comprehension and
-  attendance.
-  Generally, correct answers will be worth full credit and incorrect answers half
-  credit (you were there, but didn&rsquo;t get it right).
-  Generally, we will ask at least three questions during class. Not all questions
-  may count for attendance credit.
+  <p>Attendance is not compulsory for this course. However, the lectures might include
+    some quizzes used to verify comprehension. These quizzes could be in form of
+    class assignments based on implementation or quick two to three theoretical questions.
   We reserve the right to experiment with this mechanism a bit throughout the
-  semester and vary when and how we ask questions or validate attendance.
+  semester.
   </p>
+
+  <br>
+  {% assign anchor_text="Use of Unfair Means" %}
+  {% assign anchor_name="syllabus-cheating" %}
+  {% assign anchor_html_entity="h3" %}
+  {% include anchor.html %}
+
+  <p>The use of unfair means by any student would be severely punished. The following
+  document would be referred to while deciding the penalty imposed. </p>
+
+  <a href="https://www.cse.iitk.ac.in/pages/AntiCheatingPolicy.html"> Department Anti-Cheating Policy </p>
 
 </section>
 
