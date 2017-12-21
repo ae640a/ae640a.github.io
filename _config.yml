@@ -15,7 +15,7 @@ description: > # this means to ignore newlines until "url:"
 
 url: "https://ae640a.github.io" # the base hostname & protocol for your site
 
-google_analytics_id:
+google_analytics_id: UA-111494265-1
 
 timezone: India/Kanpur
 permalink: none
