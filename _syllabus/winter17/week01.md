@@ -11,7 +11,7 @@ solutionRelease:
 title: "System Integration using ROS Framework"
 lectureTopics:
   - How to interface hardware with software?
-  - Interfacing ROS with various Hardware (Px4, Camera, Wi-Fi Signal Tracker, DecaWare)
+  - Interfacing ROS with various Hardware (Kinect, Camera, Wi-Fi Signal Tracker, LiDAR)
   - Robot Simulation using Gazebo
 homeworkTopics:
   - Install <a href="http://releases.ubuntu.com/16.04/">Ubuntu 16.04</a> and <a href="http://wiki.ros.org/kinetic">ROS Kinetic</a> on laptop
