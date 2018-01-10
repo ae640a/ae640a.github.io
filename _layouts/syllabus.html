@@ -43,7 +43,11 @@
       {% if now > lectureRelease %}
       <p>
         Slides
-        <a href="lectures/{{ page.slidesName }}.pdf">[pdf]</a>
+        <ul>
+        {% for slide in page.slidesName %}
+          <li><a href="/assets/winter17/slides/{{ slide }}.pdf">{{ slide }}</a></li>
+        {% endfor %}
+      </ul>
       </p>
       {% endif %}
     {% endif %}
@@ -63,11 +67,11 @@
   </td>
 </tr>
 <tr>
-  <!-- <td colspan="2">
+  <td colspan="2">
     {% for lecturer in page.lecturer %}
       <p><em>{{ lecturer }}</em></p>
     {% endfor %}
-  </td> -->
+  </td>
 </tr>
 <tr>
   <td colspan="2" class="syllabus-homework">
