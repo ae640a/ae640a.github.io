@@ -1,5 +1,4 @@
 ---
-sectionHeader: 'Mobile Robot Localization'
 week: 6
 dates: 12/02/2018 14/02/2018
 lecturer: Mangal Kothari
