@@ -1,5 +1,5 @@
 ---
-sectionHeader: Introduction to Robotics
+sectionHeader: Introduction to Robot Operating System
 week: 1
 dates: 08/01/2018 10/01/2018
 lecturer: Mayank Mittal

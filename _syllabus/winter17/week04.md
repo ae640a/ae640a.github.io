@@ -6,11 +6,10 @@ slidesName: # w17/week4
 homeworkRelease:
 advancedRelease:
 solutionRelease:
-title: "Modelling and Control of Quadrotor"
+title: "Inertial Navigation"
 lectureTopics:
-  - Kinematics of Quadrotor
-  - Dynamic models
-  - Linear Controllers for quadrotors
+- Attitude and Heading Reference System (AHRS)
+- Orientation Kinematics using DCM Algorithm
 homeworkTopics:
 lectureSummary:
 references:

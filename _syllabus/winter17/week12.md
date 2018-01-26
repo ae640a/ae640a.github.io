@@ -2,7 +2,7 @@
 sectionHeader: 'Project Presentation'
 week: 12
 dates: 14/04/2018 16/04/2018
-lecturer: Mangal Kothari
+lecturer:
 slidesName: # w17/week8
 homeworkRelease:
 advancedRelease:
