@@ -6,11 +6,10 @@ slidesName: # w17/week7
 homeworkRelease:
 advancedRelease:
 solutionRelease:
-title: "Localization Problem (Contd.)"
+title: "Inertial Navigation"
 lectureTopics:
-  - Extended Kalman Filter (EKF) Algorithm
-  - Unscented Kalman Filter (UKF) Algorithm
-  - Introduction to Non-Parametric Filters
+  - Attitude and Heading Reference System (AHRS)
+  - Orientation Kinematics using DCM Algorithm  
 homeworkTopics:
 lectureSummary:
 references:

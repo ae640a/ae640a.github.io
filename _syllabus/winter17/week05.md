@@ -1,5 +1,4 @@
 ---
-sectionHeader: 'Mobile Robot Localization'
 week: 5
 dates: 05/02/2018 07/02/2018
 lecturer: Mangal Kothari
@@ -7,11 +6,12 @@ slidesName: # w17/week5
 homeworkRelease:
 advancedRelease:
 solutionRelease:
-title: "Mathematical Foundation"
+title: "Localization Problem"
 lectureTopics:
-- Matrix Theory (Vector Spaces, Linear Estimation, Differentiation)
-- Basic Concepts in Probability
-- RANSAC and Principle Component Analysis (PCA)
+- Recursive State Estimation
+- Taxonomy of Localization Problems
+- Markov Localization
+- Inroduction to Gaussian Filters
 homeworkTopics:
 lectureSummary:
 references:

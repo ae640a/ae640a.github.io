@@ -6,12 +6,11 @@ slidesName: # w17/week6
 homeworkRelease:
 advancedRelease:
 solutionRelease:
-title: "Localization Problem"
+title: "Localization Problem (Contd.)"
 lectureTopics:
-  - Recursive State Estimation
-  - Taxonomy of Localization Problems
-  - Markov Localization
-  - Inroduction to Gaussian Filters
+- Extended Kalman Filter (EKF) Algorithm
+- Unscented Kalman Filter (UKF) Algorithm
+- Introduction to Non-Parametric Filters  
 homeworkTopics:
 lectureSummary:
 references:
