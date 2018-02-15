@@ -1,6 +1,6 @@
 ---
 week: 5
-dates: 05/02/2018 07/02/2018
+dates: 31/01/2018 05/02/2018 
 lecturer: Mangal Kothari
 slidesName: # w17/week5
 homeworkRelease:

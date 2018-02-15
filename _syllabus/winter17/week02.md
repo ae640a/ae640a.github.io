@@ -1,7 +1,7 @@
 ---
 sectionHeader: Dynamics and Control
 week: 2
-dates: 15/01/2018 17/01/2018 20/01/2018
+dates: 15/01/2018 17/01/2018 
 lecturer: Mangal Kothari
 slidesName: # w17/week8
   - Lecture 3
