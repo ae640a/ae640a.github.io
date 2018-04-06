@@ -1,7 +1,7 @@
 ---
 sectionHeader: Dynamics and Control
 week: 2
-dates: 15/01/2018 17/01/2018 
+dates: 15/01/2018 17/01/2018
 lecturer: Mangal Kothari
 slidesName: # w17/week8
   - Lecture 3
@@ -12,7 +12,6 @@ title: "Modelling and Control of Quadrotor"
 lectureTopics:
   - Rigid-Body Transformation (Euler and Quaternion representations)
   - Kinematics of Quadrotor
-  - Non-linear Controllers for quadrotors
 homeworkTopics:
 lectureSummary:
 references:
