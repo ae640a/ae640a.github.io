@@ -1,15 +1,17 @@
 ---
+sectionHeader: 'Review Week'
 week: 7
 dates: 05/03/2018 07/03/2018
-lecturer: Mangal Kothari
+lecturer: Mayank Mittal
 slidesName: # w17/week7
 homeworkRelease:
 advancedRelease:
 solutionRelease:
-title: "Inertial Navigation"
+title: "Review of Topics Taught So Far"
 lectureTopics:
-  - Attitude and Heading Reference System (AHRS)
-  - Orientation Kinematics using DCM Algorithm  
+  - Discussion on Kalman Filter Family
+  - Introduction to Non-Parametric Filters  
+  - Recap of Robot Operating System
 homeworkTopics:
 lectureSummary:
 references:

@@ -10,7 +10,6 @@ title: "Localization Problem (Contd.)"
 lectureTopics:
 - Extended Kalman Filter (EKF) Algorithm
 - Unscented Kalman Filter (UKF) Algorithm
-- Introduction to Non-Parametric Filters  
 homeworkTopics:
 lectureSummary:
 references:

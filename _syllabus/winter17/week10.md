@@ -1,9 +1,9 @@
 ---
-sectionHeader: 'Perception'
-week: 10
-dates: 02/04/2018 04/04/2018
-lecturer: Mangal Kothari
-slidesName: #w17/week2
+sectionHeader: 'Sensing'
+week: 8
+dates: 26/03/2018 28/03/2018
+lecturer: Harsh Sinha
+slidesName: # w17/week8
 homeworkRelease:
 advancedRelease:
 solutionRelease:

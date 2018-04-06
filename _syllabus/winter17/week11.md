@@ -1,16 +1,16 @@
 ---
-sectionHeader: 'Multi-Robots System'
-week: 11
-dates: 07/03/2018 09/03/2018
+week: 9
+dates: 19/03/2018 21/03/2018
 lecturer: Mangal Kothari
 slidesName: # w17/week8
+  - Lecture 17
 homeworkRelease:
 advancedRelease:
 solutionRelease:
-title: "UAV-UGV Collaboration"
+title: "Inertial Navigation"
 lectureTopics:
-  - Cooperative Localization
-  - Multi-Robot Mapping and Path Planning
+  - Attitude and Heading Reference System (AHRS)
+  - Orientation Kinematics using DCM Algorithm  
 homeworkTopics:
 lectureSummary:
 references:
