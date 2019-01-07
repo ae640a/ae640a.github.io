@@ -8,10 +8,13 @@ instructor: Prof. Mangal Kothari  # course instructor
 email: ae640a@gmail.com
 description: > # this means to ignore newlines until "url:"
   This 9-credit graduate level course is designed to teach the essentials of
-  robotics. The course would deal with dynamics and state estimation for various
-  robotic systems, mainly focusing on the kalman filter and its family.
-  It would also cover path planning and SLAM algorithms for these systems. Towards
-  the end of the course advanced topics like cooperative localization may be discussed.
+  robotics. The course would deal with dynamics and state estimation for
+  various robotic systems, mainly focusing on the kalman filter and its
+  family. It would also cover path planning and SLAM algorithms for these
+  systems, as well as some basic computer vision. Towards the end of the
+  course, topics like inter-robot communication and cooperative localization
+  may be discussed, based on the time available and the feedback from the
+  class.
 
 url: "https://ae640a.github.io" # the base hostname & protocol for your site
 
@@ -56,6 +59,18 @@ defaults:
       path: "_updates/winter17"
     values:
       category: winter17
+  - scope:
+      path: "_syllabus/winter18"
+    values:
+      category: winter18
+  - scope:
+      path: "_lectures/winter18"
+    values:
+      category: winter18
+  - scope:
+      path: "_updates/winter18"
+    values:
+      category: winter18
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

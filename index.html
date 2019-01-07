@@ -45,10 +45,8 @@ layout: default
   <p></p>
   <dl class="dl-horizontal">
     <dd> <b>Instructor:</b> <a href="https://www.iitk.ac.in/aero/mangal/"> {{site.instructor}} </a></dd>
-    <dd><b>Office Hours:</b> Tuesday, Friday (03:30PM &mdash; 04:30PM)</dd>
-    <dd><b>Class Venue:</b> L-11, Lecture Hall Complex</dd>
-    <dd><b>Class Timings:</b> Monday, Wednesday (5:10PM &mdash; 6:30PM) </dd>
-    <dd><b>T.A. Hours:</b> Mayank Mittal (Friday, 4:30PM &mdash; 5:30PM), Krishnraj Singh Gaur (by appointment)</dd>
+    <dd><b>Class Venue:</b> L-9, Lecture Hall Complex</dd>
+    <dd><b>Class Timings:</b> Monday (12:00PM &mdash; 1:15PM), Tuesday (9:00AM &mdash; 10:15AM)</dd>
   </dl>
   <p>{{site.description}}</p>
 </section>
@@ -58,9 +56,13 @@ layout: default
   {% assign anchor_name="prereqs" %}
   {% assign anchor_html_entity="h2" %}
   {% include anchor.html %}
+
   <p>There are no formal pre-requisties for the course. However, prior knowledge of dynamics,
-    probability and statistics is necessary. The students also need to be proficient in object-oriented
-    programming (Python/C++), and MATLAB. Familiarity of robotic hardware and ROS would be beneficial.</p>
+  probability and statistics is necessary. The students also need to be proficient in object-
+  oriented programming (Python/C++) and MATLAB. Familiarity with basic linux commands, robotic
+  hardware and ROS would be beneficial but is not expected from all students - lectures and
+  workshops will be held to ensure that students do not face difficulties in these areas.</p>
+
   <p><b> NOTE: </b> The course is being offered to advanced undergraduate and graduate students only.</p>
 
 </section>
@@ -73,7 +75,7 @@ layout: default
 
     <div class="alert alert-warning">
       <span class="glyphicon glyphicon-warning-sign"></span>
-      The syllabus is subject to change in response to
+      The course syllabus and the number of lectures allotted for each topic are subject to change in response to
       feedback and class needs throughout the term.
     </div>
     <div class="table-responsive">
@@ -84,7 +86,7 @@ layout: default
           <th style="min-width: 250px;">Summary</th>
         </tr>
         {% for week in site.syllabus %}
-          {% if week.categories contains 'winter17' %}
+          {% if week.categories contains 'winter18' %}
             {{ week.output }}
           {% endif %}
         {% endfor %}
@@ -103,16 +105,20 @@ layout: default
 
 
 <section class="fdb-block team-2">
-  {% assign anchor_text="Grading" %}
+  {% assign anchor_text="Grading Policy" %}
   {% assign anchor_name="grading" %}
   {% assign anchor_html_entity="h2" %}
   {% include anchor.html %}
   <p>
-  This course is graded on a straight scale, it will not be curved. There are a
-  total of 100 possible points in this course.  The tentative break-up of the points is
-  as follows: Homework Assignments (40 points), Project (35 points), Quizzes (5 points)
-  and End-Semester Examination (20 points). Each section has modest opportunity for extra credit
-  that can cover missing points elsewhere.
+  The tentative weightages for each component of the course are as follows:
+  <ul> 
+    <li>Mid-Semester Examination (10%)</li>
+    <li>Quizzes (10%)</li>
+    <li>Homework Assignments (40%)</li>
+    <li>Course Project (40%)</li>
+    <li><b>Minimum of 70% attendance (compulsory)</b></li>
+  </ul>
+  <b>NOTE:</b> This course does not have an end-semsester examination. Instead, there will be a project evaluation towards the end of the course.
   </p>
 
   <!-- <p><small><em>Range notation [90,93) means 90 is included and 93 is not</em></small></p>
@@ -138,56 +144,26 @@ layout: default
 
   <br>
 
-  {% assign anchor_text="Homework (40% / 40 points)" %}
+  {% assign anchor_text="Homework Assignments (40%)" %}
   {% assign anchor_name="syllabus-homework" %}
   {% assign anchor_html_entity="h3" %}
   {% include anchor.html %}
 
-  <p>There would be 4 homework assignments in the course. Each homework assignment is
-  worth 10 points, and would comprise of implementation and theory based questions.
-  There might be bonus questions in each assignment carrying extra points.
-  Any points over 40 points are worth half their value.</p>
+  <p>There would be 4-5 homework assignments in the course. Assignments would comprise of theory as well as implementation based questions. Starter code would be provided for most programming questions. Some questions might carry forward from one assignment to another (for instance, a question in assignment 2 might require you to further build up on the code already developed in assignment 1). There might be bonus questions in each assignment carrying extra points.</p>
 
-  <p><b>NOTE: </b></p>
-  <ul>
-    <li> All assignments have to submitted in <i>LaTeX</i> following this <a href="https://www.overleaf.com/latex/templates/ece-100-template/pjrrfybfggqt#.WjvMFnWCzCI">template</a>. </li>
-    <li> Late assignment submissions may lead to penalty.</li>
-  </ul>
-
+  <p><b>NOTE: The use of any unfair means such as plagiarism by any student would be severely punished.</b> For details regarding penalties imposed for late submissions, compilation errors, etc., refer to <a href="/assets/winter17/references/ae640a-general-instructions.pdf">this</a> document.</p>
   <br>
 
-  {% assign anchor_text="Project (35% / 35 points)" %}
+  {% assign anchor_text="Course Project (40%)" %}
   {% assign anchor_name="syllabus-project" %}
   {% assign anchor_html_entity="h3" %}
   {% include anchor.html %}
 
-  <p>The course heavily emphasizes on the project aspect. You would be required to work in a team
-    of 2-3 members. The project has to be an implementation of a recent work (from 2013 onwards) in robotics appearing in conferences like
-    RSS, ICRA, or IROS. The source code for the same should not be publicly available. Points would be given on the basis of code readibilty, documentation, and presentation.
-  </p>
-
-  <br>
-
-  {% assign anchor_text="Quizzes and Participation (5% / 5 points)" %}
-  {% assign anchor_name="syllabus-attendance" %}
-  {% assign anchor_html_entity="h3" %}
-  {% include anchor.html %}
-
-  <p>Attendance is not compulsory for this course. However, the lectures might include
-    some quizzes used to verify comprehension. These quizzes could be in form of
-    class assignments based on implementation or quick two to three theoretical questions.
-  We reserve the right to experiment with this mechanism a bit throughout the
-  semester.
-  </p>
-
-  <br>
-  {% assign anchor_text="Use of Unfair Means" %}
-  {% assign anchor_name="syllabus-cheating" %}
-  {% assign anchor_html_entity="h3" %}
-  {% include anchor.html %}
-
-  <p>The use of unfair means by any student would be severely punished. The following
-  document would be referred to while deciding the penalty imposed: <a href="/assets/winter17/references/ae640a-general-instructions.pdf"> General Instructions and Guidelines </p>
+  <p>The course heavily emphasizes on the project aspect. You would be required to work in a team of
+  2-3 members. The project has to be an implementation of a recent work (from 2013 onwards) in
+  robotics appearing in conferences like RSS, ICRA, or IROS. The source code for the same should not
+  be publicly available. Points would be given on the basis of code readibilty, documentation, and
+  presentation. </p>
 
 </section>
 
@@ -197,7 +173,7 @@ layout: default
   {% assign anchor_html_entity="h2" %}
   {% include anchor.html %}
   <p>
-    For general issues, e-mail the course staff at <a href="mailto:{{site.email}}">{{site.email}}</a>.
+    For doubts related to assignments, send an e-mail to <a href="mailto:{{site.email}}">{{site.email}}</a>.
     For sensitive issues, please e-mail <a href="mailto:mangal@iitk.ac.in">{{site.instructor}}</a> directly.
   </p>
   <br>
@@ -212,21 +188,12 @@ layout: default
       </div>
 
       <div class="col-sm-3 m-sm-auto">
-        <a href="https://mayankm96.github.io">
-          <img class="img-fluid" src="/assets/winter17/staff/mayank-mittal.jpg"  alt="Mayank Mittal"/>
+        <a href="https://github.com/aalapshah12297">
+          <img class="img-fluid" src="/assets/winter18/staff/aalap-shah.jpg"  alt="Aalap Shah"/>
         </a>
-        <h3><a href="https://mayankm96.github.io">Mayank Mittal</a></h3>
-        <p><a href="mailto:mayankm@iitk.ac.in">mayankm@iitk.ac.in</a></p>
+        <h3><a href="https://github.com/aalapshah12297">Aalap Shah</a></h3>
+        <p><a href="mailto:aalap@iitk.ac.in">aalap@iitk.ac.in</a></p>
       </div>
-
-      <div class="col-sm-3 m-sm-auto">
-        <a href="">
-          <img class="img-fluid" src="/assets/winter17/staff/krishnraj-singh.jpg"  alt="Krishnraj Singh Gaur"/>
-        </a>
-        <h3><a href="">Krishnraj Singh Gaur</a></h3>
-        <p><a href="mailto:ksgaur@iitk.ac.in">ksgaur@iitk.ac.in</a></p>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -235,6 +202,12 @@ layout: default
   {% assign anchor_name="reference" %}
   {% assign anchor_html_entity="h2" %}
   {% include anchor.html %}
-  <p>[1] Probabilistic Robotics. Sebastian Thrun, Wolfram Burgard and Dieter Fox. MIT press, 2005.</p>
-  <p>[2] Principles of Robot Motion: Theory, Algorithms and Implementations, Howie Choset <i>et al.</i>. MIT Press, 2005.
+  <ol>
+    <li>Probabilistic Robotics by Sebastian Thrun, Wolfram Burgard and Dieter Fox. MIT press, 2005.</li>
+    <li>Principles of Robot Motion: Theory, Algorithms and Implementations, Howie Choset <i>et al.</i>. MIT Press, 2005.</li>
+    <li>State Estimation for Robotics by Timothy D. Barfoot</li>
+    <li>A Gentle Introduction to ROS by Jason M. O'Kane</li>
+    <li><a href="http://wiki.ros.org/">ROS Wiki</a></li>
+  </ol>
+
 </section>
