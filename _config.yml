@@ -9,7 +9,7 @@ email: ae640a@gmail.com
 description: > # this means to ignore newlines until "url:"
   This 9-credit graduate level course is designed to teach the essentials of
   robotics. The course would deal with dynamics and state estimation for
-  various robotic systems, mainly focusing on the kalman filter and its
+  various robotic systems, mainly focusing on the Kalman filter and its
   family. It would also cover path planning and SLAM algorithms for these
   systems, as well as some basic computer vision. Towards the end of the
   course, topics like inter-robot communication and cooperative localization
