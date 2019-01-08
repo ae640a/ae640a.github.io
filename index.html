@@ -10,7 +10,7 @@ layout: default
       {% comment %} Do math on unix timstamps to process in liquid {% endcomment %}
       {% assign onemonthago = 'now' | date: '%s' | minus: 2592000 %}
       {% for update in site.updates %}
-        {% if update.categories contains 'winter17' %}
+        {% if update.categories contains 'winter18' %}
           {% comment %} No int filter, use benign math to coerce from string {% endcomment %}
           {% assign update_date = update.date | date: '%s' | times: 1 %}
           {% if update_date > onemonthago %}
@@ -60,7 +60,7 @@ layout: default
   <p>There are no formal pre-requisties for the course. However, prior knowledge of dynamics,
   probability and statistics is necessary. The students also need to be proficient in object-
   oriented programming (Python/C++) and MATLAB. Familiarity with basic linux commands, robotic
-  hardware and ROS would be beneficial but is not expected from all students - lectures and
+  hardware and ROS would be beneficial but is not expected from all students. Lectures and
   workshops will be held to ensure that students do not face difficulties in these areas.</p>
 
   <p><b> NOTE: </b> The course is being offered to advanced undergraduate and graduate students only.</p>
@@ -149,9 +149,15 @@ layout: default
   {% assign anchor_html_entity="h3" %}
   {% include anchor.html %}
 
-  <p>There would be 4-5 homework assignments in the course. Assignments would comprise of theory as well as implementation based questions. Starter code would be provided for most programming questions. Some questions might carry forward from one assignment to another (for instance, a question in assignment 2 might require you to further build up on the code already developed in assignment 1). There might be bonus questions in each assignment carrying extra points.</p>
+  <p>There would be 4-5 homework assignments in the course. Assignments would comprise of theory as
+  well as implementation based questions. Starter code would be provided for most programming
+  questions. Some questions might carry forward from one assignment to another (for instance, a
+  question in assignment 2 might require you to further build up on the code already developed in
+  assignment 1). There might be bonus questions in each assignment carrying extra points.
+  Submissions will be managed through <a
+  href="https://canvas.instructure.com/login/canvas">Canvas</a>.</p>
 
-  <p><b>NOTE: The use of any unfair means such as plagiarism by any student would be severely punished.</b> For details regarding penalties imposed for late submissions, compilation errors, etc., refer to <a href="/assets/winter17/references/ae640a-general-instructions.pdf">this</a> document.</p>
+  <p><b>NOTE: The use of any unfair means such as plagiarism by any student would be severely punished.</b> For details regarding the mode of submission and penalties imposed for late submissions, compilation errors, etc., refer to <a href="/assets/winter17/references/ae640a-general-instructions.pdf">this</a> document.</p>
   <br>
 
   {% assign anchor_text="Course Project (40%)" %}
@@ -163,7 +169,10 @@ layout: default
   2-3 members. The project has to be an implementation of a recent work (from 2013 onwards) in
   robotics appearing in conferences like RSS, ICRA, or IROS. The source code for the same should not
   be publicly available. Points would be given on the basis of code readibilty, documentation, and
-  presentation. </p>
+  presentation. There would be an abstract submission, a mid-term evaluation and an end-term
+  evaluation. A report along with source code for the project will have to be submitted towards the
+  end. Again, submissions will be managed through <a
+  href="https://canvas.instructure.com/login/canvas">Canvas</a>.</p>
 
 </section>
 
@@ -184,7 +193,10 @@ layout: default
           <img class="img-fluid" src="/assets/winter17/staff/mangal-kothari.jpg" alt="Mangal Kothari">
         </a>
         <h3><a href="https://www.iitk.ac.in/aero/mangal/">Prof. Mangal Kothari</a></h3>
-        <p><a href="mailto:mangal@iitk.ac.in">mangal@iitk.ac.in</a></p>
+        <p>
+          <i>Course Instructor</i><br />
+          <a href="mailto:mangal@iitk.ac.in">mangal@iitk.ac.in</a>
+        </p>
       </div>
 
       <div class="col-sm-3 m-sm-auto">
@@ -192,7 +204,10 @@ layout: default
           <img class="img-fluid" src="/assets/winter18/staff/aalap-shah.jpg"  alt="Aalap Shah"/>
         </a>
         <h3><a href="https://github.com/aalapshah12297">Aalap Shah</a></h3>
-        <p><a href="mailto:aalap@iitk.ac.in">aalap@iitk.ac.in</a></p>
+        <p>
+          <i>Teaching Assistant</i><br />
+          <a href="mailto:aalap@iitk.ac.in">aalap@iitk.ac.in</a>
+        </p>
       </div>
   </div>
 </section>
@@ -204,7 +219,7 @@ layout: default
   {% include anchor.html %}
   <ol>
     <li>Probabilistic Robotics by Sebastian Thrun, Wolfram Burgard and Dieter Fox. MIT press, 2005.</li>
-    <li>Principles of Robot Motion: Theory, Algorithms and Implementations, Howie Choset <i>et al.</i>. MIT Press, 2005.</li>
+    <li>Principles of Robot Motion: Theory, Algorithms and Implementations by Howie Choset <i>et al.</i>. MIT Press, 2005.</li>
     <li>State Estimation for Robotics by Timothy D. Barfoot</li>
     <li>A Gentle Introduction to ROS by Jason M. O'Kane</li>
     <li><a href="http://wiki.ros.org/">ROS Wiki</a></li>
