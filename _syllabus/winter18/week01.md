@@ -5,6 +5,8 @@ dates: 07/01/2019 08/01/2019
 lecturer: Dr. Mangal Kothari
 homeworkRelease:
 slidesName:
+  - Lecture 1
+  - Lecture 2 (ongoing work, cannot be shared)
 solutionRelease:
 title: "Course Overview and Motivation"
 lectureTopics:
