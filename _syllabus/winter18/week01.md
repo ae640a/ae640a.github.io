@@ -6,7 +6,7 @@ lecturer: Dr. Mangal Kothari
 homeworkRelease:
 slidesName:
   - Lecture 1
-  - Lecture 2 (ongoing work, cannot be shared)
+  - Lecture 2 (ongoing work, can't post publicly)
 solutionRelease:
 title: "Course Overview and Motivation"
 lectureTopics:
