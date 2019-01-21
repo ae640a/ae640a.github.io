@@ -1,16 +1,17 @@
 ---
-sectionHeader: State Estimation
-week: 2
-dates: 15/01/2019
+week: 5
+dates: 04/02/2019
 lecturer: Dr. Mangal Kothari
 slidesName:
 homeworkRelease:
 advancedRelease:
 solutionRelease:
-title: "Mathematical Background"
+title: "Gaussian Filters"
 lectureTopics:
-  - Least Square Estimation (Linear)
+  - Unscented Kalman Filter
+  - Information Filter
 homeworkTopics:
 lectureSummary:
 references:
+  - Chapter 3 of Probabilistic Robotics
 ---

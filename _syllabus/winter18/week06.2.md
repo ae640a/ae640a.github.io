@@ -1,15 +1,14 @@
 ---
-sectionHeader: State Estimation
-week: 2
-dates: 15/01/2019
+sectionHeader: Recap
+week: 6
+dates: 12/02/2019
 lecturer: Dr. Mangal Kothari
 slidesName:
 homeworkRelease:
 advancedRelease:
 solutionRelease:
-title: "Mathematical Background"
+title: "Review of Concepts Taught So Far"
 lectureTopics:
-  - Least Square Estimation (Linear)
 homeworkTopics:
 lectureSummary:
 references:

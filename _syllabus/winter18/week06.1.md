@@ -1,16 +1,15 @@
 ---
-sectionHeader: State Estimation
-week: 2
-dates: 15/01/2019
+week: 6
+dates: 11/02/2019
 lecturer: Dr. Mangal Kothari
 slidesName:
 homeworkRelease:
 advancedRelease:
 solutionRelease:
-title: "Mathematical Background"
+title: "Markov Decision Processes"
 lectureTopics:
-  - Least Square Estimation (Linear)
 homeworkTopics:
 lectureSummary:
 references:
+  - Chapter 15 of Probabilistic Robotics
 ---
