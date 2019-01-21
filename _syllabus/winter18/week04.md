@@ -13,7 +13,7 @@ lectureTopics:
   - Kalman Filter
   - Extended Kalman Filter
 homeworkTopics:
-  - Assignment 2 (01/02) (ROS: RANSAC for Plane Detection in a Point Cloud)
+  - Assignment 2 (01/02) (Using Point Clouds with ROS & Plane Detection using RANSAC)
 lectureSummary:
 references:
   - Chapter 3 of Probabilistic Robotics

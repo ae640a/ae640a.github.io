@@ -14,7 +14,7 @@ lectureTopics:
   - Bayes Filter
   - Maximum Likelihood Estimation
 homeworkTopics:
-  - Assignment 1 (25/01) (Theoretical: State Estimation)
+  - Assignment 1 (25/01) (Mathematical Background & State Estimation, Theoretical)
 lectureSummary:
 references:
   - <a href="http://www.cse.psu.edu/~rtc12/CSE486/lecture15.pdf">RANSAC (CSE486, Penn State)</a>
