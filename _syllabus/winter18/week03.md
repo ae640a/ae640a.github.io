@@ -9,6 +9,7 @@ solutionRelease:
 title: "Mathematical Background (contd.) & Introduction to State Estimation"
 lectureTopics:
   - Least Square Estimation (Weighted, Non-linear)
+  - Probability Basics
   - RANSAC for Outlier Rejection
   - Defining the State Estimation Problem
   - Bayes Filter

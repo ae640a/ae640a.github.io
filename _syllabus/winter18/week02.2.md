@@ -13,4 +13,5 @@ lectureTopics:
 homeworkTopics:
 lectureSummary:
 references:
+  - <a href="/assets/winter18/references/least-squares.pdf">Least-Squares Techniques</a>
 ---
