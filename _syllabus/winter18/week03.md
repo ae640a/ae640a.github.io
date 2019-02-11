@@ -13,7 +13,6 @@ lectureTopics:
   - RANSAC for Outlier Rejection
   - Defining the State Estimation Problem
   - Bayes Filter
-  - Maximum Likelihood Estimation
 homeworkTopics:
   - Assignment 1 (25/01) (Mathematical Background & State Estimation, Theoretical)
 lectureSummary:
