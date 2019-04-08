@@ -1,5 +1,4 @@
 ---
-sectionHeader: Simultaneous Localization & Mapping
 week: 11
 dates: 01/04/2019 02/04/2019
 lecturer: Dr. Mangal Kothari
